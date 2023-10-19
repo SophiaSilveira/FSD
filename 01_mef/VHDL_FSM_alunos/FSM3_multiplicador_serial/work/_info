@@ -1,0 +1,78 @@
+m255
+K4
+z2
+!s11e vcom 2021.3 2021.07, Jul 13 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/23107539/Documents/sophia/FSD/01_mef/VHDL_FSM_alunos/FSM3_multiplicador_serial
+Emult_serial
+Z1 w1697717743
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z6 8multiplicador_serial.vhd
+Z7 Fmultiplicador_serial.vhd
+l0
+L5 1
+VdI[oNNMMR64Fk@djaXS4[0
+!s100 W1=fkXBK3POYLYc^G^iT02
+Z8 OL;C;2021.3;73
+32
+Z9 !s110 1697718135
+!i10b 1
+Z10 !s108 1697718135.000000
+Z11 !s90 -reportprogress|300|-work|work|multiplicador_serial.vhd|
+Z12 !s107 multiplicador_serial.vhd|
+!i113 0
+Z13 o-work work
+Z14 tExplicit 1 CvgOpt 0
+Amult_serial
+R2
+R3
+R4
+R5
+DEx4 work 11 mult_serial 0 22 dI[oNNMMR64Fk@djaXS4[0
+!i122 0
+l20
+L15 66
+VYJgh5ob?W?P^omhYM;EXa0
+!s100 IhJ[8<Ug<h=C>T4A4DKNF3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Etb
+w1697718086
+R4
+R5
+!i122 1
+R0
+8multiplicador_serial_tb.vhd
+Fmultiplicador_serial_tb.vhd
+l0
+L7 1
+VUXT14T2V@:lM50DT557bM0
+!s100 9g6in6l[J`h2lo@kRB<e;2
+R8
+32
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|work|multiplicador_serial_tb.vhd|
+!s107 multiplicador_serial_tb.vhd|
+!i113 0
+R13
+R14

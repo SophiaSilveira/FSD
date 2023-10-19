@@ -20,8 +20,32 @@ architecture mult_serial of mult_serial is
 begin                           
        
              
-        <<<<  FAZER AQUI A CODIFICAÇÃO DA MÁQUINA DE ESTADOS >>>
+        --Aqui registrador
+        seq: process(clock, reset)
+        begin
+          if reset = '1' then
+            EA <= init;
+          elsif rising_edge(clock) then
+            EA <= PE;
+          end if;
+        end process;
 
+        --mef
+        comb: process(EA, start, cont)
+        begin
+          case EA is
+            when init => if start = '1' then PE <= sum;
+                          else PE <= init;
+                          end if;
+            when sum => PE <= shift;
+            when shift => if cont = 0 then PE <= fim;
+                          else PE <= sum;
+                          end if;
+            when fim => PE <= init;
+            when others => null;
+
+          end case;
+        end process;
         
         -- bloco de dados
         process (reset, clock)  
