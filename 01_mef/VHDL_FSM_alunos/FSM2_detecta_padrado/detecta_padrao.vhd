@@ -30,11 +30,22 @@ begin
      comb: process(EA, din)
      begin
         case EA is
-
-            ---------------------------------------------------------------------
-            codificar a maquina de estados
-            ---------------------------------------------------------------------
-            
+          when S0 => if din = '1' then PE <= S1;
+                    else PE <= S0;
+                    end if;
+          when S1 => if din = '1' then PE <= S11;
+                    else PE <= S0;
+                    end if;
+          when S11 => if din = '0' then PE <= S110;
+                    else PE <= S11;
+                    end if;
+          when S110 => if din = '1' then PE <= S1101;
+                    else PE <= S0;
+                    end if;
+          when S1101 => if din = '0' then PE <= S0;
+                    else PE <= S11;
+                    end if;
+          when others => null;          
         end case;
      end process;
      

@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.3 2021.07, Jul 13 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/23107539/Documents/sophia/FSD/01_mef/VHDL_FSM_alunos/FSM2_detecta_padrado
+T_opt
+Z1 !s110 1697715400
+VmHE78bYCD2d<MELAM]I5k0
+04 2 4 work tb arch 1
+=1-000ae431a4f1-653114c8-9579b-148d
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc=lprn
+tCvgOpt 0
+n@_opt
+OL;O;2021.3;73
+Efsm
+Z2 w1697715397
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8detecta_padrao.vhd
+Z6 Fdetecta_padrao.vhd
+l0
+L8 1
+V3gMO91BaR:NG><a;CZoAk3
+!s100 C4NckHe<FjcZj_ok2fRDe2
+Z7 OL;C;2021.3;73
+32
+R1
+!i10b 1
+Z8 !s108 1697715400.000000
+Z9 !s90 -reportprogress|300|-work|work|detecta_padrao.vhd|
+Z10 !s107 detecta_padrao.vhd|
+!i113 0
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Aa1
+R3
+R4
+Z13 DEx4 work 3 fsm 0 22 3gMO91BaR:NG><a;CZoAk3
+!i122 0
+l19
+L16 39
+VH9_c756_7g20D^K<bDR>M3
+!s100 Td>HQBzYSVQ?X:=SdW]o:1
+R7
+32
+R1
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb
+Z14 w1697714288
+R3
+R4
+!i122 1
+R0
+Z15 8detecta_padrao_tb.vhd
+Z16 Fdetecta_padrao_tb.vhd
+l0
+L7 1
+Vm20E2?Wff0EWi5IWkg8Yn2
+!s100 FUjiGGC?8OoT3>m:>W7ZS0
+R7
+32
+R1
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|detecta_padrao_tb.vhd|
+Z18 !s107 detecta_padrao_tb.vhd|
+!i113 0
+R11
+R12
+Aarch
+R13
+R3
+R4
+DEx4 work 2 tb 0 22 m20E2?Wff0EWi5IWkg8Yn2
+!i122 1
+l19
+L10 27
+VFdI;YB;GNoS;Mahd=_Q3F0
+!s100 GjLZWmWOicf@Nimhn57lm1
+R7
+32
+R1
+!i10b 1
+R8
+R17
+R18
+!i113 0
+R11
+R12
