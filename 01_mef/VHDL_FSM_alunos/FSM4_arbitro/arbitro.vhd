@@ -65,8 +65,7 @@ begin
                         sel <= sel+2;
                     elsif req(CONV_INTEGER(sel+3)) = '1' then
                             sel <= sel+3;                      
-                    elsif req(CONV_INTEGER(sel)) = '1' then
-                                sel <= sel;            
+                    else  sel <= sel;            
                     end if; 
            end if;
         end if;
