@@ -28,7 +28,7 @@ begin
     begin
       release(i) <= '0'; 
       wait until grant(i)='1';
-      wait for 80 ns;
+      wait for 120 ns;
       release(i) <= '1'; 
       wait for 20 ns;
     end process;
