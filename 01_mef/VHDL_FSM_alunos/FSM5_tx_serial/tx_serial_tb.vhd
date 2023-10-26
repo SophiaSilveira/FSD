@@ -13,6 +13,10 @@ begin
   DUT : entity work.transmissor
         port map (clock => clock, reset => reset, send => send,
                   palavra => palavra, busy => busy, linha => linha );
+                  
+  RX : entity work.receptor
+        port map (clock => clock, reset => reset,
+                  palavra => saida, linha => linha);
 
   clock <=  not clock after 10 ns;
 

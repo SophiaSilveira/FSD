@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.3 2021.07, Jul 13 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/23107539/Documents/sophia/FSD/01_mef/VHDL_FSM_alunos/FSM5_tx_serial
+T_opt
+!s110 1698321159
+V33BR=;5=MjU8@NzD7`gL03
+04 2 2 work tb tb 1
+=1-000ae431a4f1-653a5306-b9ee9-142a
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc=lprn
+tCvgOpt 0
+n@_opt
+OL;O;2021.3;73
+Etb
+Z1 w1698318554
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8tx_serial_tb.vhd
+Z5 Ftx_serial_tb.vhd
+l0
+L4 1
+Vn<F6WP0oNKD57Y@W2il`l1
+!s100 KkCijh[S[AY@6bdXdH8lZ3
+Z6 OL;C;2021.3;73
+32
+Z7 !s110 1698321157
+!i10b 1
+Z8 !s108 1698321157.000000
+Z9 !s90 -reportprogress|300|-work|work|tx_serial_tb.vhd|
+Z10 !s107 tx_serial_tb.vhd|
+!i113 0
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Atb
+Z13 DEx4 work 11 transmissor 0 22 UmBDL970NOYm3H2=oGBzW2
+R2
+R3
+DEx4 work 2 tb 0 22 n<F6WP0oNKD57Y@W2il`l1
+!i122 1
+l11
+L7 19
+Vdh:;2W5I;V;N^m>NKgP@22
+!s100 hWG<FgaEe3265AOHNm;k01
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etransmissor
+Z14 w1698321154
+R2
+R3
+!i122 0
+R0
+Z15 8tx_serial.vhd
+Z16 Ftx_serial.vhd
+l0
+L7 1
+VUmBDL970NOYm3H2=oGBzW2
+!s100 =DYz2iV^W]29n]0n=ZNXJ2
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|tx_serial.vhd|
+Z18 !s107 tx_serial.vhd|
+!i113 0
+R11
+R12
+Aa1
+R2
+R3
+R13
+!i122 0
+l17
+L14 49
+VnmF;B9Szn9?dz<bZcOgni3
+!s100 mM9En@aoN7<]Y1@PR>gJG0
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 0
+R11
+R12
